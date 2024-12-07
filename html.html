@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .header-section{
+            padding-top: 10%;
+            padding-bottom: 10%;
+            background-image: url('iamges.jpg');
+            background-size: cover;
+            color: black;
+            display: inline-block;
+        }
+        footer{
+            color: wheat;
+            justify-content: space-around;
+            }
+        .content {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .content code {
+            background-color: #f5f5f5;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-size: 90%;
+        }
+        .content a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .content a:hover {
+            text-decoration: underline;
+        }
+        .body{
+            background-color: rgb(241, 138, 11);
+        }
+        .main{
+            background-color: rgb(215, 17, 80);
+            padding: 10px;
+        }
+        .main1{
+            background-color: blueviolet;
+        }
+        .mai{
+            background-color: fuchsia;
+            padding: 10px;
+        }
+        .sar{
+            color: rgb(7, 248, 248);
+            margin-top: 15%;
+            padding: auto;
+        }
+        
+    </style>
+</head>
+<body class="body">
+    <div class="">
+        <!-- Head and Nav -->
+        <header>
+            <div class="col-12 sticky-top">
+                <nav class="navbar navbar-expand-md bg-body-denger col-11 mx-auto ">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html">Learn New</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="html.html">HTML</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="https://getbootstrap.com/docs/5.3/getting-started/download/">Bootstrap</a>
+                              </li>
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="css.html">CSS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="java.html">JavaScript</a>
+                            </li>
+                            
+                          <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li> -->
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://getbootstrap.com/docs/5.3/components/navbar/">Learn NAVE BAR</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col-12 header-section ">
+                <div class="col-12 text-center">
+                    <!-- <div class="col-md-10 col-0 mx-auto">
+                        <img src="back.jpg" alt="Web">
+                    </div> -->
+                    <div class="col-10 mx-auto ">
+                        <h1>Learn HTML</h1>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+        </header>
+       <main class="main">
+            <div class="main1">
+                <main class="content col-10 mx-auto my-3 py-2 bg-body-denger" >
+                    <p>HTML (HyperText Markup Language) is the standard language for creating webpages. It structures the content you see online.</p>
+                    <div class="mai">
+                    
+                    <h2>Why Learn HTML?</h2>
+                    <ul>
+                        <!-- Unordered list of HTML benefits -->
+                        <li>Build the foundation of webpages.</li>
+                        <li>Organize content like headings, paragraphs, images, and links.</li>
+                        <li>Learn a core skill for web development.</li>
+                    </ul>
+            
+                    <h2>Getting Started</h2>
+                    <p>An HTML document consists of elements wrapped in tags, like <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, and <code>&lt;a&gt;</code>. Here’s an example:</p>
+                    
+                    <h3>Example: A Simple HTML Page</h3>
+                    <pre>
+            <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;My First HTML Page&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                    &lt;p&gt;This is my first HTML page.&lt;/p&gt;
+                &lt;/body&gt;
+            &lt;/html&gt;
+            </code>
+                    </pre>
+            
+                    <h2>Basic HTML Tags</h2>
+                    <ul>
+                        <li><code>&lt;h1&gt; to &lt;h6&gt;</code>: Headings of different sizes.</li>
+                        <li><code>&lt;p&gt;</code>: Paragraphs.</li>
+                        <li><code>&lt;a&gt;</code>: Links.</li>
+                        <li><code>&lt;img&gt;</code>: Images.</li>
+                        <li><code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code>: Lists.</li>
+                    </ul>
+                    <div class="sar">
+            
+                    <h2 class="color solid">Resources to Learn More</h2>
+                    <p>Check out these resources to learn HTML in-depth:</p>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs: HTML</a></li>
+                        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></li>
+                        <li><a href="https://html.com/" target="_blank">HTML.com</a></li>
+                    </ul>
+                   </div> 
+                </div>
+                </main>
+            </div>
+       </main>
+        <footer>
+            <div class=" bg-black col-12 py-5 align-items-center">
+                <p class="text-center col-10 mx-auto pb-1">&copy; All rights reserved by Thies</p><br>
+                <div class="col-2 mx-auto text-center">
+                    <a href="register.html" class="btn btn-light">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
